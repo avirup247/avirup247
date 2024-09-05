@@ -1,0 +1,171 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background:url("background.jpg");
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Parallax Sections */
+.parallax {
+    background:url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#hero-section {
+    background-image: url('sci-fi-hero-bg.jpg');
+}
+
+#university-section {
+    background-image: url('university.jpg');
+    filter: brightness(0.4) blur(2px);
+}
+
+#projects-section {
+    background-image: url('web.jpg');
+}
+
+.parallax h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* About Section */
+#about {
+    position: relative;
+    padding: 50px 20px;
+    background-color: #101010;
+}
+.profile-pic{
+   padding: 5px;
+    width: 600px;
+}
+.profile-pic img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    
+}
+.download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: #101010;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #00ffcc;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #101010;
+    color: #00ffcc;
+    border: 2px solid #00ffcc;
+}
+.about-info {
+    top: 100px;
+    position: absolute;
+    right: 0px;
+    width: 700px;
+}
+
+.about-info h2 {
+    font-size: 28px;
+    color: #00ffcc;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #151515;
+    padding: 50px 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill-item {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #00ffcc;
+}
+
+.skill-item h3 {
+    color: #00ffcc;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    color: #cccccc;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #101010;
+    padding: 50px 20px;
+}
+
+.project {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffcc;
+}
+
+.project h3 {
+    color: #00ffcc;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #101010;
+    color: #777;
+}
